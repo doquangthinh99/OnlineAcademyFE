@@ -30,7 +30,7 @@ function Login() {
       email: data.get('email'),
       password: data.get('password'),
     }).then(res=>{
-      console.log(res.status)
+      window.location.href = "/home"
     }).catch(e=>{
       console.log(e)
     })
