@@ -4,7 +4,7 @@ import SignUp from "./SignUp";
 import Home from "./Home";
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/OnlineAcademy">
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/signup" element={<SignUp />} />
